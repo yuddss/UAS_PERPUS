@@ -1,0 +1,11 @@
+Untuk mereset nilai auto-increment di tabel peminjaman agar kembali ke angka 1, Anda dapat mengikuti langkah-langkah berikut:
+
+Hapus semua data di tabel peminjaman:
+
+sql
+CODE = TRUNCATE TABLE peminjaman;
+
+Setelah data dihapus, atur nilai auto-increment ke angka 1:
+
+sql
+CODE = ALTER TABLE peminjaman AUTO_INCREMENT = 1;
